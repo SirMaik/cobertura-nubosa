@@ -33,13 +33,13 @@ Y por último hay que copiar los binarios a una ruta conocida por el sistema:
 
 Ahora es posible ejecutar el programa haciendo uso del comando `cobertura-nubosa-exe` junto con las banderas:
 
-* `-h` - Muestra la versión y sección de ayuda.
-* `-s` - Ruta a la imagen de entrada. **Esta bandera es obligatoria.**
-* `-S` - En el caso de que se desee generar una imágen que muestra el cielo segmentado. Debe ir acompañada de:
-  * `-o` - La ruta y nombre (con terminación *.png*) donde se guardará la imagen generada. 
-* `-m` - En el caso de que se desee usar una máscara<sup>1</sup> diferente a la predeterminada.
+* `-h`  -  Muestra la versión y sección de ayuda.
+* `-s`  -  Ruta a la imagen de entrada. **Esta bandera es obligatoria.**
+* `-S`  -  En el caso de que se desee generar una imágen que muestra el cielo segmentado. Debe ir acompañada de:
+  * `-o`  -  La ruta y nombre (con terminación *.png*) donde se guardará la imagen generada. 
+* `-m`  -  En el caso de que se desee usar una máscara<sup>[\*]</sup> diferente a la predeterminada.
 	
-1- La máscara debe de ser una imágen de tamaño igual o estrictamente menor a la imágen de entrada. Se ignorarán todos los pixeles con canal alfa igual a cero  y se procesarán el resto. 
+<sup>[\*]</sup> La máscara debe de ser una imágen de tamaño igual o estrictamente menor a la imágen de entrada. Se ignorarán todos los pixeles con canal alfa igual a cero  y se procesarán el resto. 
 
 ### Ejemplos
 
