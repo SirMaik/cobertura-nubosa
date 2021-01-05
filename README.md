@@ -37,9 +37,9 @@ Ahora es posible ejecutar el programa haciendo uso del comando `cobertura-nubosa
 * `-s`  -  Ruta a la imagen de entrada. **Esta bandera es obligatoria.**
 * `-S`  -  En el caso de que se desee generar una imágen que muestra el cielo segmentado. Debe ir acompañada de:
   * `-o`  -  La ruta y nombre (con terminación *.png*) donde se guardará la imagen generada. 
-* `-m`  -  En el caso de que se desee usar una máscara<sup>[\*]</sup> diferente a la predeterminada.
+* `-m`  -  En el caso de que se desee usar una máscara<sup>[1]</sup> diferente a la predeterminada.
 	
-<sup>[\*]</sup> La máscara debe de ser una imágen de tamaño igual o estrictamente menor a la imágen de entrada. Se ignorarán todos los pixeles con canal alfa igual a cero  y se procesarán el resto. 
+<sup>[1]</sup> La máscara debe de ser una imágen de tamaño igual o estrictamente menor a la imágen de entrada. Se ignorarán todos los pixeles con canal alfa igual a cero  y se procesarán el resto. 
 
 ### Ejemplos
 
