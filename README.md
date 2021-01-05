@@ -55,4 +55,4 @@ Calculará el **CCI** de la imágen *images/11833.JPG* haciendo uso de la másca
 ## Construído con
 * [Stack](https://docs.haskellstack.org) - Programa multi-plataforma para desarrollar projectos en Haskell. 
 * [Juicy Pixels](https://github.com/Twinside/Juicy.Pixels) - Biblioteca para cargar/guardar imágenes.
-* [HFlags](https://github.com/nilcons/hflags) - Analizador sintáctico de banderas para Haskell conceptualmente similar a *gflags*x. 
+* [HFlags](https://github.com/nilcons/hflags) - Analizador sintáctico de banderas para Haskell conceptualmente similar a *gflags*. 
